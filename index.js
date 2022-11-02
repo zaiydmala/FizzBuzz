@@ -5,4 +5,12 @@
 //If the current number is divisible by 3 and 5 then print "FizzBuzz"
 //Otherwise just print the current number
 
-let answer = parseInt(prompt("Please enter a number of your choice: "), 10);
+let answer = parseInt(prompt("Please enter a number of your choice: "));
+
+for (let i=1; i <= answer; i++) {
+    if(i % 3 === 0) {
+        console.log("Fizz");
+    }
+}
+
+
